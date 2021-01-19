@@ -1,0 +1,83 @@
+#start_num {
+    border: 5px solid black;
+}
+
+#file-input {
+    border: 1px solid black;
+}
+
+#show {
+    height: 100%;
+    display: flex;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid blue;
+    word-break: break-all;
+    border-radius: 8px;
+}
+
+h3 {
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#count_u {
+    text-align: center;
+}
+
+.Selector {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.yes_no {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.stop_buttons {
+    width: 100%;
+    text-align: center;
+    margin-top: 45px;
+    
+}
+
+.inner {
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    border: 2px solid blue;
+    overflow-y: auto; 
+    height: 400px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#yes_col thead th{ 
+    position: sticky; 
+    top: 0; 
+    background:#eee;
+}
+
+
+#no_col thead th{ 
+    position: sticky; 
+    top: 0; 
+    background:#eee;
+}

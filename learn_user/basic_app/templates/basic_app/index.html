@@ -1,0 +1,20 @@
+{% extends "basic_app/base.html" %}
+{% block body_block %}
+
+<div class="container">
+  <div class="jumbotron">
+    <h1>Sumi Data Classification Webpage</h1>
+    {% if user.is_authenticated %}
+        <h2>Welcome {{ user.username }}!</h2>
+        
+        <a href="{% url 'working_page' %}">Click here to do your job!</a>
+    {% else %}
+        <h2>Log in or register to continue!</h2>
+    {% endif %}
+  </div>
+</div>
+
+{% endblock %}
+
+
+<!-- <a href="http://mng-sumi.hekate.ai/dashboard-sumi/index.html">Click here to do your job!</a> -->
